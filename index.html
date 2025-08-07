@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard DanaSejahtera</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sistem Informasi Monitoring Peminjam DanaSejahtera</h1>
+  </header>
+
+  <main>
+    <!-- Tabel di atas -->
+    <section class="full-width-section">
+      <h2>Data Peminjam</h2>
+      <div id="tabel-peminjam">Memuat data...</div>
+    </section>
+
+    <!-- Gambar chart di bawah -->
+    <section class="grid-container">
+      <div class="chart-card">
+        <h2>Status Pengembalian (Lunas vs Tertunda)</h2>
+        <img src="assets/Picture1.png" alt="Status Pengembalian"/>
+      </div>
+      <div class="chart-card">
+        <h2>Jumlah Peminjam per Kategori Pekerjaan</h2>
+        <img src="assets/Picture2.png" alt="Kategori Pekerjaan"/>
+      </div>
+      <div class="chart-card">
+        <h2>Total Pinjaman per Wilayah</h2>
+        <img src="assets/Picture3.png" alt="Pinjaman per Wilayah"/>
+      </div>
+      <div class="chart-card">
+        <h2>Status Pengembalian per Wilayah</h2>
+        <img src="assets/Picture4.png" alt="Status per Wilayah"/>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 DanaSejahtera</p>
+  </footer>
+
+  <script src="data.js"></script>
+</body>
+</html>
